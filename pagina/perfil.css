@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background-color: #E5EAF5;
+  margin: 0;
+  padding: 0;
+}
+
+.cartaPerfil {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.containerInfo {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+
+.containerInfo p {
+  font-weight: bold;
+}
+
+.seguidores-seguidos {
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.skills-etiqueta {
+  background-color: #1E1E5D;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 20px;
+}
+
+button {
+  background-color: #FF8692;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#containerPerfil {
+  margin-top: 20px;
+}
+
+#botonCargar {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .cartaPerfil {
+    max-width: 80%;
+  }
+}
